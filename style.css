@@ -1,0 +1,96 @@
+#canvas{
+	background: url('bg.jpg');
+	background-size: cover;
+	background-position: 0px -160px;
+	background-attachment: fixed;
+	font-family: 'Oxygen', sans-serif;
+	line-height: 25px;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+	border-top: 15px solid black;
+}
+
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#subhead{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.container12{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.error{	
+	text-align: center;
+	color: red;
+	font-size: 0.7em;
+}
+
+.form{
+	float: left;
+	background: rgba(255, 255, 255, 0.9);
+	width: 460px;
+	margin-left: 230px; 
+	margin-right: 230px; 
+	margin-top: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 30px #000;
+}
+
+.label{
+	height: 30px;
+	width: 160px;
+	padding: 10px 10px 10px 0px;
+	font-size: 1em;
+	text-align: right;
+	display: inline-block;
+	margin-left: -20;
+}
+
+.field{
+	height: 30px;
+	width: 240px;
+	font-size: 0.8em;
+	padding: 5px;
+	margin: 10px 0px 10px 0px;
+	display: inline;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	box-shadow: 1px 1px 10px rgba(158, 158, 158, 0.9);
+}
+
+.socb{
+	display: none;
+	margin: 0 20px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.field:hover{
+	box-shadow: 1px 1px 10px rgba(22,37,229,1);
+}
+
+.socb:hover{
+	border-radius: 50%;
+	box-shadow: 3px 3px 15px #000;
+}
